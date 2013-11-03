@@ -18,6 +18,7 @@ end
 
 function fish_prompt
     # Line 1
+    echo
     set_color yellow
     printf '%s' (whoami)
     set_color normal
